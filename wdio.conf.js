@@ -51,7 +51,10 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'firefox'
+        browserName: 'firefox',
+        'moz:firefoxOptions': {
+            args: ['-headless']
+        }
     }],
 
     //
