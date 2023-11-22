@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/zeljkofilipin/webdriverio-firefox/issues"
   },
-  "homepage": "https://github.com/zeljkofilipin/webdriverio-firefox#readme"
+  "homepage": "https://github.com/zeljkofilipin/webdriverio-firefox#readme",
+  "dependencies": {
+    "webdriverio": "^8.23.4"
+  }
 }
